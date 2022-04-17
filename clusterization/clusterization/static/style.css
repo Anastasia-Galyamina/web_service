@@ -1,0 +1,36 @@
+html{
+    background-color: #708090;
+}
+
+navbar {
+  color: #00498b;
+  font-weight: bold;
+  list-style-type: none;
+  overflow: hidden;
+  /*background-color: #808080;  #00BFFF голубой */
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+h1{
+    color: #170a45;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+button{
+    background: white;
+    border: 5px solid #ffbd2c;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 12px;
+}

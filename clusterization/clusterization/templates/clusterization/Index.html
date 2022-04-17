@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% extends "clusterization/base.html" %}
+<html lang="en">
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <title>Веб-сервис кластеризации</title>
+</head>
+<body>
+<h1>Веб-сервис кластеризации данных</h1>
+
+
+<form action="upload_file" method = 'POST' >
+    {% csrf_token %}
+    <label>file.name</label>
+    <input type="hidden" name="id" value="{{project.id}}">
+  <button type="submit"> </button>
+</form>
+</body>
+{% endblock %}
+</html>
